@@ -626,6 +626,17 @@
       font-size: 1.2rem;
       color: var(--light);
     }
+
+    .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 1rem;
+}
+
   </style>
 </head>
 <body>
@@ -638,6 +649,20 @@
     <h1 class="floating"><span class="typewriter">Muhammad Hammad</span></h1>
     <p>Computer Systems Engineer | Data Analyst</p>
   </header>
+  <header class="header">
+  <div class="container header__container">
+    <!-- Profile Image -->
+    <div class="header__profile">
+      <img src="image.jpg" alt="Muhammad Hammad" class="profile-img">
+    </div>
+
+    <!-- Your name or nav -->
+    <!-- <h1 class="header__name">Muhammad Hammad</h1> -->
+
+    <!-- Navigation, etc -->
+  </div>
+</header>
+
 
   <nav>
     <button class="mobile-menu-btn" id="mobileMenuBtn">
